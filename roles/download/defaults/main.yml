@@ -54,7 +54,7 @@ kubeadm_version: "{{ kube_version }}"
 etcd_version: v3.3.10
 
 # gcr and kubernetes image repo define
-gcr_image_repo: "gcr.io"
+gcr_image_repo: "docker.io"
 kube_image_repo: "{{ gcr_image_repo }}/google-containers"
 
 # docker image repo define
